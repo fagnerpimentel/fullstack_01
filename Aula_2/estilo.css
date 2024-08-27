@@ -1,0 +1,22 @@
+#saudacao{
+    color:red
+}
+#apresentacao{
+    color: blue;
+}
+.exemplo{
+    color: green;
+}
+
+div p{
+    font-size: 5pt;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    font-size: 20pt;
+    color: yellow;
+}
