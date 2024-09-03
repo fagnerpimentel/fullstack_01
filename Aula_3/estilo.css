@@ -1,0 +1,51 @@
+p{
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.solid{
+    border-style: solid;
+}
+.dashed{
+    border-style: dashed;
+}
+
+div{
+    position: relative;
+    display: block;
+    color: azure;
+    background-color: blueviolet;
+    z-index: 1;
+}
+
+a{
+    position: relative;
+    display: block;
+    color: azure;
+    background-color: brown;
+    z-index: -1;
+}
+
+#elem{
+    position: relative;
+    top: 20px;
+    left: 400px;
+    height: 200px;
+    width: 200px;
+}
+
+#contato{
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 0;
+}
+
+#contato:hover{
+    background-color: blue;
+}
